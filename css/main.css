@@ -799,7 +799,7 @@ a:not([href]) {
 	cursor: pointer;
 }
 
-.popup-main .pay-box {
+.popup-buy .pay-box {
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
@@ -807,16 +807,16 @@ a:not([href]) {
 	margin-right: 50px;
 }
 
-.popup-main .pay-item {
+.popup-buy .pay-item {
 	margin: 0;
 	margin-bottom: 45px;
 }
 
-.popup-main .ya a {
+.popup-buy .ya a {
 	margin-left: -30px;
 }
 
-.popup-main .pb a::before {
+.popup-buy .pb a::before {
 	margin-left: 0;
 }
 
@@ -849,7 +849,7 @@ a:not([href]) {
 	margin-left: 15px;
 }
 
-.up {
+.popup-buy .up {
 	display: block;
 	content: '';
 	width: 106px;
