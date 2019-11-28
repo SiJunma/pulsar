@@ -61,7 +61,17 @@
 		padding-bottom: 70px;
 	}
 
+	.UP-wrapper {
+		flex-direction: column;
+	}
 
+	.popup-buy .pay-box {
+		margin-top: 75px;
+	}
+
+	.UP-wrapper p {
+		text-align: center;
+	}
 
 }
 
@@ -95,6 +105,29 @@
 		justify-content: center;
 	}
 
+	.two-col-wrapper {
+		flex-direction: column;
+	}
+
+	.one-col-text {
+		width: auto;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.col-center h2 {
+		text-align: left;
+	}
+
+	.popup-area {
+		width: 80%;
+	}
+
+	.popup-main {
+		padding: 70px;
+		padding-top: 100px;
+	}
+
 }
 
 @media screen and (max-width: 790px) {
@@ -119,7 +152,25 @@
 		margin-bottom: 20px;
 	}
 
+	.page h1::before,
+	.page h1::after {
+		display: none;
+	}
 
+	.popup-area {
+		width: 100%;
+	}
+
+	.popup-buy .pay-box {
+		padding-left: 0;
+	}
+
+	.popup-buy .popup-main {
+		padding: 20px;
+		padding-top: 100px;
+		padding-bottom: 70px;
+		width: 100%;
+	}
 
 }
 
@@ -165,6 +216,42 @@
 		width: 100%;
 	}
 
+	.page nav {
+		flex-direction: column;
+	}
+
+	.page .chost-btn {
+		margin-right: auto;
+		margin-top: 10px;
+	}
+
+	.page .menu-box {
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.popup-main {
+		width: 99%;
+	}
+
+	.pay-box-wrapper {
+		flex-direction: column;
+	}
+
+	.popup-buy .pay-box {
+    	margin-top: 10px;
+    	margin-right: 0px;
+    	padding-right: 0px;
+	}
+
+	.popup-buy .ya a {
+    	margin-left: -6px;
+	}
+
+	.popup-buy .pay-item {
+    	margin-bottom: 35px;
+	}
+
 }
 
 @media screen and (max-width: 532px) {
@@ -190,6 +277,34 @@
 
 	.social-box {
 		margin-right: auto;
+	}
+
+	.page nav {
+		flex-direction: column;
+		padding-top: 40px;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.page .chost-btn {
+		margin-right: auto;
+		margin-top: 10px;
+		margin-left: auto;
+	}
+
+	.page .menu-box {
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.page .social-item a {
+		text-align: center;
+	}
+
+	.popup-main {
+    	padding: 30px;
+    	padding-top: 100px;
+    	padding-bottom: 50px;
 	}
 
 }
@@ -228,6 +343,23 @@
 		padding-right: 15px;
 	}
 
+	.page h1 {
+		font-size: 30px;
+		width: auto;
+		margin-right: 20px;
+		margin-left: 20px;
+		text-align: center;
+		display: block;
+	}
+
+	.page .menu-item a {
+		width: auto;
+	}
+
+	.popup-main h3 {
+		font-size: 28px;
+	}
+
 }
 
 @media screen and (max-width: 374px) {
@@ -253,6 +385,22 @@
 
 	.tr-des-wrapper {
 		padding: 0;
+	}
+
+	.one-col-text {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+
+	#rules-content {
+		font-size: 17px;
+		line-height: 29px;
+	}
+
+	.popup-main {
+	    padding: 13px;
+	    padding-top: 100px;
+	    padding-bottom: 50px;
 	}
 
 }

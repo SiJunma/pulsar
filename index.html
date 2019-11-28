@@ -19,7 +19,7 @@
            <nav>
                <ul class="menu-box">
                    <li class="menu-item"><a href="rules.html">Правила</a></li>
-                   <li class="menu-item"><a href="#">Обратная связь</a></li>
+                   <li class="menu-item"><a id="feedback">Обратная связь</a></li>
                </ul>
                <a href="#offer" class="go-to chost-btn">Купить проходку</a>
            </nav>
@@ -76,18 +76,18 @@
                 <p>Присоединяйся!</p>
                 <b>Всего 650₽</b>
                 <p>НАВСЕГДА!</p>
-                <a href="https://www.donationalerts.com/r/pulsar_rekryt" class="wh-btn">Оформить подписку</a>
+                <a id="buy" class="wh-btn">Оформить подписку</a>
             </div>
             <img src="img/offer-bg.png" width="451" height="349" class="box bounce-1">
         </div>
         <div class="container">
             <h3>Несколько способов оплаты:</h3>
             <ul class="pay-box">
-                <li class="pay-item d-a"><a href="https://www.donationalerts.com/r/pulsar_rekryt" alt="Donation Alerts">Donation<span>Alerts</span></a></li>
-                <li class="pay-item sb"><a href="#" alt="Сбербанк"><i class="visually-hidden">Сбербанк России</i></a></li>
-                <li class="pay-item up"><a href="#" alt="UnitPay"><i class="visually-hidden">UnitPay</i></a></li>
-                <li class="pay-item ya"><a href="#" alt="Яндекс Деньги"><span>Я</span>ндекс</a></li>
-                <li class="pay-item pb"><a href="https://privatbank.ua/ru/sendmoney?payment=1c28195360"><i class="visually-hidden">ПриватБанк Украины</i></a></li>
+                <li class="pay-item d-a"><a href="https://www.donationalerts.com/r/pulsar_rekryt" title="Donation Alerts">Donation<span>Alerts</span></a></li>
+                <li class="pay-item sb"><a href="#s" title="Сбербанк"><i class="visually-hidden">Сбербанк России</i></a></li>
+                <li class="pay-item up"><a href="#" title="UnitPay"><i class="visually-hidden">UnitPay</i></a></li>
+                <li class="pay-item ya"><a href="https://money.yandex.ru/to/410015235949336/650" title="Яндекс Деньги"><span>Я</span>ндекс</a></li>
+                <li class="pay-item pb"><a href="https://privatbank.ua/ru/sendmoney?payment=1c28195360" title="ПриватБанк Украины"><i class="visually-hidden">ПриватБанк Украины</i></a></li>
             </ul>
         </div>
     </section>
@@ -97,6 +97,67 @@
             <p>2020 © Pulsar    |    Все права защищены   |   IP:rekryt.ru</p>
 
     </footer>
+
+        <section>
+            <div class="dark-wrapper popup-text popup-feedback">
+                <div class="popup-main center">
+                    <h3>Написать руководству проекта</h3>
+                    <button class="close-btn close-btn" type="button"></button>
+
+                    <p>Вы можете написать нам письмо со своими предложениями, техническими вопросами, о проблемах с оплатой</p>
+
+                    <form method="post" action="https://echo.htmlacademy.ru">
+                        <p>
+                            <label for="msg-title" class="visually-hidden">Тема письма</label>
+                            <input class="popup-area" id="msg-title" type="text" name="title" placeholder="Тема" required>
+                        </p>
+                        <p>
+                            <label for="msg-email" class="visually-hidden">Тема письма</label>
+                            <input class="popup-area" id="msg-email" type="email" name="email" placeholder="Ваш e-mail" required>
+                        </p>
+                        <p>
+                            <label for="msg-email" class="visually-hidden">Тема письма</label>
+                            <textarea class="popup-area popup-textarea" id="msg-text" type="text" name="message" placeholder="Текст письма" required></textarea>
+                        </p>
+                        <button type="submit" class="wh-btn popup-btn">Отправить</button>
+                    </form>
+
+
+                </div>
+            </div>
+            
+        </section>
+
+        <section>
+            <div class="dark-wrapper popup-buy">
+                <div class="popup-main center">
+                    <h3>Выберите способ оплаты</h3>
+                    <button class="close-btn close-btn" type="button"></button>
+
+                    <div class="pay-box-wrapper">
+                        <ul class="pay-box">
+                            <li class="pay-item d-a"><a href="https://www.donationalerts.com/r/pulsar_rekryt" title="Donation Alerts">Donation<span>Alerts</span></a></li>
+                            <li class="pay-item sb"><a href="#s" title="Для оплаты свяжитесь с нами через сайт"><i class="visually-hidden">Сбербанк России</i></a></li>
+                            <li class="pay-item ya"><a href="https://money.yandex.ru/to/410015235949336/650" title="Яндекс Деньги"><span>Я</span>ндекс</a></li>
+                            <li class="pay-item pb"><a href="https://privatbank.ua/ru/sendmoney?payment=1c28195360" title="ПриватБанк Украины"><i class="visually-hidden">ПриватБанк Украины</i></a></li>
+                        </ul>
+
+                        <div>
+                            <div class="UP-wrapper"> 
+                                <a href="#" class="up" title="UnitPay"><i class="visually-hidden">UnitPay</i></a>
+                                <p>Профессиональный платежный инструмент
+                                с несколькими способами оплаты</p>
+                            </div>
+
+                            <img src="img/up-ways.png">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            
+        </section>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>

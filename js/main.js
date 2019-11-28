@@ -52,3 +52,16 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+
+     $("#feedback").click(function () {
+
+     $('.popup-feedback').toggleClass("menu_state_open"); });
+
+          $("#buy").click(function () {
+
+     $('.popup-buy').toggleClass("menu_state_open"); });
+
+      $(".close-btn").click(function () {
+    $('.popup-buy').removeClass("menu_state_open");    
+    $('.popup-feedback').removeClass("menu_state_open"); });
