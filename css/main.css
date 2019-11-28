@@ -50,9 +50,15 @@ footer {
     margin-top: 132px;
     margin-bottom: 75px;
     color: #9C9C9C;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -92,9 +98,16 @@ ul, li {
 
 header .container {
 	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .container {
@@ -103,8 +116,12 @@ header .container {
 }
 
 nav	{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding-top: 40px;
 	height: 50px;
 }
@@ -112,9 +129,13 @@ nav	{
 .menu-item {
 	margin-right: 30px;
 	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	text-align: center;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 .menu-item a,
@@ -125,10 +146,10 @@ nav	{
   	font-family: "bahnschrift";
   	font-size: 15px;
   	-webkit-transition: all 0.3s ease;;
-  -moz-transition: all 0.3s ease;;
   -o-transition: all 0.3s ease;;
   transition: all 0.3s ease;
-  box-sizing:  border-box;
+  -webkit-box-sizing:  border-box;
+          box-sizing:  border-box;
   width: 140px;
   text-align: center;
 }
@@ -148,12 +169,13 @@ nav	{
 .social-item a:hover {
 	font-size: 18px;
 	-webkit-transition: all 0.3s ease;;
-  -moz-transition: all 0.3s ease;;
   -o-transition: all 0.3s ease;;
   transition: all 0.3s ease; 
 }
 
 .menu-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-left: 30px;
 /*	align-items: baseline;*/
@@ -198,6 +220,8 @@ nav	{
 .social-box {
 	font-family: "Roboto";
 	font-weight: 700;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	font-size: 17px;
 	margin-left: auto;
@@ -226,8 +250,12 @@ nav	{
 }
 
 #about .container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	padding: 90px;
 	padding-top: 120px;
 }
@@ -275,12 +303,15 @@ nav	{
 }
 
 .trigger-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	font-size: 20px;
 	font-family: "Roboto";
 	font-weight: 700;
 	width: 100%;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 
 .trigger-item:before {
@@ -290,10 +321,19 @@ nav	{
 
 .trigger-item {
 	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .trigger-item:nth-child(1):before {
@@ -332,10 +372,16 @@ nav	{
 }
 
 .tr-des-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	margin-top: 135px;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin-bottom: 100px;
 }
 
@@ -356,7 +402,8 @@ nav	{
 	width: 220px;
 	background-color: #FFFFFF;
 	border: none;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	font-family: "Roboto";
 	font-weight: 700;
 	font-size: 17px;
@@ -376,9 +423,15 @@ nav	{
 }
 
 #offer .flex-center {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	padding-top: 100px;
 }
 
@@ -388,9 +441,15 @@ nav	{
 }
 
 .pay-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	margin-top: 27px;
 }
 
@@ -498,20 +557,32 @@ footer p {
 }
 
     .box {
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        transform-origin: bottom;
+        -webkit-animation-duration: 4s;
+                animation-duration: 4s;
+        -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+        -webkit-transform-origin: bottom;
+            -ms-transform-origin: bottom;
+                transform-origin: bottom;
 
     }
     .bounce-1 {
-        animation-name: bounce-1;
-        animation-timing-function: linear;
-        animation-timing-function: ease;
+        -webkit-animation-name: bounce-1;
+                animation-name: bounce-1;
+        -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+        -webkit-animation-timing-function: ease;
+                animation-timing-function: ease;
+    }
+    @-webkit-keyframes bounce-1 {
+        0%   { -webkit-transform: translateY(2px); transform: translateY(2px); }
+        50%  { -webkit-transform: translateY(-5px); transform: translateY(-5px); }
+        100% { -webkit-transform: translateY(2px); transform: translateY(2px); }
     }
     @keyframes bounce-1 {
-        0%   { transform: translateY(2px); }
-        50%  { transform: translateY(-5px); }
-        100% { transform: translateY(2px); }
+        0%   { -webkit-transform: translateY(2px); transform: translateY(2px); }
+        50%  { -webkit-transform: translateY(-5px); transform: translateY(-5px); }
+        100% { -webkit-transform: translateY(2px); transform: translateY(2px); }
     }
 
 .logo-text {
@@ -553,10 +624,16 @@ footer p {
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 .page .h1-wrapper {
@@ -595,6 +672,8 @@ footer p {
 }
 
 .two-col-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-top: 75px;
 }
@@ -694,7 +773,8 @@ footer p {
 	font-size: 14px;
 	color: #505050;
 	padding: 13px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 .popup-textarea {
@@ -720,7 +800,10 @@ a:not([href]) {
 }
 
 .popup-main .pay-box {
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	margin-right: 50px;
 }
 
@@ -739,15 +822,21 @@ a:not([href]) {
 
 .UP-wrapper,
 .pay-box-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
 .pay-box-wrapper {
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .UP-wrapper {
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding-top: 5px;
 	margin-bottom: 20px;
 }
@@ -767,4 +856,3 @@ a:not([href]) {
 	height: 46px;
 	background-image: url('../img/unitpay.png');
 }
-
