@@ -289,6 +289,7 @@ nav	{
 	background-image: url('../img/bg-up.svg');
 	position: absolute;
 	top: -37px;
+	left: -2px;
 }
 
 #about-img:after {
@@ -300,6 +301,7 @@ nav	{
 	margin-top: auto;
 	position: absolute;
 	bottom: -52px;
+	left: -2px;
 }
 
 .trigger-box {
